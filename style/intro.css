@@ -1,0 +1,35 @@
+.scroll img{
+    margin-top: 130px;
+    
+}
+.products{
+    margin-left: 60px;
+}
+.products ul{
+    list-style: none;
+    display: flex;
+}
+.products .card{
+    margin: 20px 20px;
+  width: 400px;
+  height: 480px;
+}
+.products .card h1{
+    font-size: larger;
+    margin: 10px ;
+}
+.products .card a{
+    text-align: left;
+    margin-left: 20px;
+}
+.products .card .row1,.products .card .row2{
+ display: flex;
+ justify-content: space-between;
+}
+.products .card .row1 img,.products .card .row2 img{
+    width: 150px;
+    margin: 20px;
+}
+.products .card .row1 figure,.products .card .row2 figure{
+  margin: 20px;
+}
